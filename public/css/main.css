@@ -21,7 +21,7 @@
 }
 
 /***** Header *****/
-header {width:100%; position:fixed; box-shadow:0 3px 4px rgba(0,0,0,0.3); font-size:1rem; background-color: white; z-index:999; top:0;}
+header {width:100%; position: fixed; box-shadow:0 3px 4px rgba(0,0,0,0.3); font-size:1rem; background-color: white; z-index:999; top:0;}
 .logo {float:left; padding:1em;}
 .nav {cursor:pointer;}
 
@@ -75,22 +75,25 @@ header {width:100%; position:fixed; box-shadow:0 3px 4px rgba(0,0,0,0.3); font-s
 	.banner_slogan {font-size:0.5rem;}
 }
 
-/***** Company PC *****/
-.company {padding:5rem 0; text-align:center;}
-.company > h2 {font-weight:300; letter-spacing:3px; margin-bottom:1rem;}
-.company > h4 {font-weight:300;}
-.company_features {max-width:1400px; margin:auto;}
-.company_features > li {width:25%; float:left; padding:1%; margin-top:3rem;}
-.company_feature {font-size:1rem;}
-.company_feature > :nth-child(1) {font-size:4em;}
-.company_feature > :nth-child(2) {font-size:1.25em; line-height:4em;}
-.company_feature > :nth-child(3) {line-height:1.75em;}
-/***** company Response *****/
+/***** shoes PC *****/
+.shoes {padding:5rem 0; text-align:center;}
+.shoes > h2 {font-weight:300; letter-spacing:3px; margin-bottom:1rem;}
+.shoes > h4 {font-weight:300;}
+.shoes_features {max-width:1400px; margin:auto;}
+.shoes_features > li {width:25%; float:left; padding:1%; margin-top:3rem;}
+.shoes_feature {font-size:1rem;}
+.shoes_feature > :nth-child(1) {font-size:4em;}
+.shoes_feature > :nth-child(2) {font-size:1.25em; line-height:4em;}
+.shoes_feature > :nth-child(3) {line-height:1.75em;}
+.he120{height: 120px}
+.shoes_feature button{margin-top:1rem;border:0;    background-color: rgba(248, 248, 219, .7);}
+.shoes_feature button:hover{background-color:rgba(248, 248, 219, 1);} 
+/***** shoes Response *****/
 @media screen and (max-width:768px) {
-	.company_features > li {width:50%}
+	.shoes_features > li {width:50%}
 }
 @media screen and (max-width:480px) {
-	.company_features > li {width:100%;}
+	.shoes_features > li {width:100%;}
 }
 
 /***** Design PC *****/
