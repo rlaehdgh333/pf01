@@ -22,7 +22,7 @@
 
 /***** Header *****/
 header {width:100%; position: fixed; box-shadow:0 3px 4px rgba(0,0,0,0.3); font-size:1rem; background-color: white; z-index:999; top:0;}
-.logo {float:left; padding:1em;}
+.logo {float:left; padding:1em;cursor: pointer;}
 .nav {cursor:pointer;}
 
 /***** navigation PC *****/
